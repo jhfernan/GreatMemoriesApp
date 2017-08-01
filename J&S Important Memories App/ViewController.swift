@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var importantMemoryLabel: UILabel!
+    @IBOutlet weak var importantMemoryButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        importantMemoryLabel.text = "Our important memories will load here!"
+        
+        importantMemoryButton.layer.cornerRadius = 4
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +28,3 @@ class ViewController: UIViewController {
 
 
 }
-
