@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					ABD65E871F2E689D00CFDE58 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Z3392E9L93;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z3392E9L93;
 				INFOPLIST_FILE = "J&S Important Memories App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathanhsfernandes.J-S-Important-Memories-App";
@@ -272,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z3392E9L93;
 				INFOPLIST_FILE = "J&S Important Memories App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathanhsfernandes.J-S-Important-Memories-App";
@@ -299,6 +302,7 @@
 				ABD65E9C1F2E689E00CFDE58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
