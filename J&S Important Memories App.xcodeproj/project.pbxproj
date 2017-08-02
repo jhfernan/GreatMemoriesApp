@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB03D9AA1F317773002E5B0B /* MemoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB03D9A91F317773002E5B0B /* MemoryProvider.swift */; };
 		ABD65E8C1F2E689E00CFDE58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD65E8B1F2E689E00CFDE58 /* AppDelegate.swift */; };
 		ABD65E8E1F2E689E00CFDE58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD65E8D1F2E689E00CFDE58 /* ViewController.swift */; };
 		ABD65E911F2E689E00CFDE58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD65E8F1F2E689E00CFDE58 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB03D9A91F317773002E5B0B /* MemoryProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryProvider.swift; sourceTree = "<group>"; };
 		ABD65E881F2E689E00CFDE58 /* J&S Important Memories App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "J&S Important Memories App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD65E8B1F2E689E00CFDE58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABD65E8D1F2E689E00CFDE58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				ABD65E921F2E689E00CFDE58 /* Assets.xcassets */,
 				ABD65E941F2E689E00CFDE58 /* LaunchScreen.storyboard */,
 				ABD65E971F2E689E00CFDE58 /* Info.plist */,
+				AB03D9A91F317773002E5B0B /* MemoryProvider.swift */,
 			);
 			path = "J&S Important Memories App";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				ABD65E8E1F2E689E00CFDE58 /* ViewController.swift in Sources */,
 				ABD65E8C1F2E689E00CFDE58 /* AppDelegate.swift in Sources */,
+				AB03D9AA1F317773002E5B0B /* MemoryProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

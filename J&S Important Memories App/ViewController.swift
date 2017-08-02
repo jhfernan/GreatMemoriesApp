@@ -12,17 +12,13 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var importantMemoryLabel: UILabel!
     @IBOutlet weak var importantMemoryButton: UIButton!
-    
-    let memories: [String] = [
-        "August 1, 2014 we got married",
-        "August 1, 2013 we started dating"
-    ]
+    let memories = MemoriesProvider()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        importantMemoryLabel.text = memories[0]
-        
+        // Initialize the info for the labels
+        importantMemoryLabel.text = memories.memories[0].description
+        // Styling for the button
         importantMemoryButton.layer.cornerRadius = 3
     }
 
@@ -32,7 +28,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showMemory() {
-        importantMemoryLabel.text = memories[1]
+        importantMemoryLabel.text = memories.memories[1].description
     }
 
 }
