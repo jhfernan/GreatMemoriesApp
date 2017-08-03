@@ -17,9 +17,7 @@ class ViewController: UIViewController {
     let memories = MemoriesProvider()
     
     func setContentForLabels() {
-        // Get a memory
         let currentMemory = memories.generateRandomMemory()
-        // Assign all content
         importantMemoryDateLabel.text = currentMemory.date
         importantMemoryDescription.text = currentMemory.description
         importantMemoryLabel.text = currentMemory.whatIRemember
@@ -27,10 +25,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Initialize the info for the labels
         setContentForLabels()
-        // Styling for the button
-        importantMemoryButton.layer.cornerRadius = 3
     }
 
     override func didReceiveMemoryWarning() {
