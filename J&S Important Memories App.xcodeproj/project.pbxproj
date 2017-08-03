@@ -13,6 +13,7 @@
 		ABD65E911F2E689E00CFDE58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD65E8F1F2E689E00CFDE58 /* Main.storyboard */; };
 		ABD65E931F2E689E00CFDE58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD65E921F2E689E00CFDE58 /* Assets.xcassets */; };
 		ABD65E961F2E689E00CFDE58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD65E941F2E689E00CFDE58 /* LaunchScreen.storyboard */; };
+		ABE1CC011F3379160035CC16 /* colorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1CC001F3379160035CC16 /* colorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ABD65E921F2E689E00CFDE58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABD65E951F2E689E00CFDE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABD65E971F2E689E00CFDE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE1CC001F3379160035CC16 /* colorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				ABD65E941F2E689E00CFDE58 /* LaunchScreen.storyboard */,
 				ABD65E971F2E689E00CFDE58 /* Info.plist */,
 				AB03D9A91F317773002E5B0B /* MemoryProvider.swift */,
+				ABE1CC001F3379160035CC16 /* colorProvider.swift */,
 			);
 			path = "J&S Important Memories App";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE1CC011F3379160035CC16 /* colorProvider.swift in Sources */,
 				ABD65E8E1F2E689E00CFDE58 /* ViewController.swift in Sources */,
 				ABD65E8C1F2E689E00CFDE58 /* AppDelegate.swift in Sources */,
 				AB03D9AA1F317773002E5B0B /* MemoryProvider.swift in Sources */,

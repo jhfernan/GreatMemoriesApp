@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var importantMemoryLabel: UILabel!
     @IBOutlet weak var importantMemoryButton: UIButton!
     let memories = MemoriesProvider()
+    let colors = ColorProvider()
     
     func setContentForLabels() {
         let currentMemory = memories.generateRandomMemory()
@@ -23,9 +24,18 @@ class ViewController: UIViewController {
         importantMemoryLabel.text = currentMemory.whatIRemember
     }
     
+    func setColorForLabels() {
+        let currentColorWheel = colors.generateRandomColor()
+        importantMemoryDateLabel.backgroundColor = currentColorWheel.headerColor
+        view.backgroundColor = currentColorWheel.backgroundColor
+        importantMemoryButton.backgroundColor = currentColorWheel.buttonColor
+        importantMemoryButton.layer.borderColor = currentColorWheel.borderColor.cgColor
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setContentForLabels()
+        setColorForLabels()
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,5 +45,6 @@ class ViewController: UIViewController {
 
     @IBAction func showMemory() {
         setContentForLabels()
+        setColorForLabels()
     }
 }

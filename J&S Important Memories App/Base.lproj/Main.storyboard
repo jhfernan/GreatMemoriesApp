@@ -36,6 +36,9 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                         <integer key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
@@ -64,7 +67,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msq-Pg-T05">
-                                <rect key="frame" x="36" y="182" width="303" height="302"/>
+                                <rect key="frame" x="36" y="193.5" width="303" height="279.5"/>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -84,8 +87,8 @@
                             <constraint firstAttribute="trailing" secondItem="oc5-wF-blj" secondAttribute="trailing" id="YaQ-Py-vnw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zPm-s7-TW5" secondAttribute="trailing" constant="20" id="aXc-pz-8IK"/>
                             <constraint firstItem="msq-Pg-T05" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="gTt-Wj-cmd"/>
+                            <constraint firstItem="msq-Pg-T05" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lNT-nS-1v9"/>
                             <constraint firstItem="zPm-s7-TW5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="lyB-ke-uKh"/>
-                            <constraint firstItem="msq-Pg-T05" firstAttribute="top" secondItem="e4H-av-fhl" secondAttribute="bottom" constant="17" id="rJ8-dG-ncw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="e4H-av-fhl" secondAttribute="trailing" constant="20" id="y0j-Ph-LlK"/>
                         </constraints>
                     </view>
