@@ -16,12 +16,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var importantMemoryButton: UIButton!
     let memories = MemoriesProvider()
     
+    func setContentForLabels() {
+        // Get a memory
+        let currentMemory = memories.generateRandomMemory()
+        // Assign all content
+        importantMemoryDateLabel.text = currentMemory.date
+        importantMemoryDescription.text = currentMemory.description
+        importantMemoryLabel.text = currentMemory.whatIRemember
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Initialize the info for the labels
-        importantMemoryDateLabel.text = "\(memories.memories[0].month)-\(memories.memories[0].day)-\(memories.memories[0].year)"
-        importantMemoryDescription.text = memories.memories[0].description
-        importantMemoryLabel.text = memories.memories[0].whatIRemember
+        setContentForLabels()
         // Styling for the button
         importantMemoryButton.layer.cornerRadius = 3
     }
@@ -32,9 +39,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showMemory() {
-        importantMemoryDateLabel.text = "\(memories.memories[1].month)-\(memories.memories[1].day)-\(memories.memories[1].year)"
-        importantMemoryDescription.text = memories.memories[1].description
-        importantMemoryLabel.text = memories.memories[1].whatIRemember
+        setContentForLabels()
     }
-
 }
